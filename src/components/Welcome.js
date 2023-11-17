@@ -22,7 +22,7 @@ const Welcome = () => {
         {/* Picture of the bakery on the right side */}
         <Col md={6} style={{ padding: '20px' }}>
           <img
-            src="path_to_your_bakery_image.jpg"  {/* Replace with the actual path to your bakery image */}
+            src="bakery.jpg"  {/* Replace with the actual path to your bakery image */}
             alt="Bakery Interior"
             style={{ width: '100%', height: 'auto' }}
           />
