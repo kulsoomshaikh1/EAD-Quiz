@@ -1,14 +1,15 @@
 import React from 'react'
-import barfiImage from './barfi1.jfif'
+import BarfiImage from './barfi1.jfif';
+
 
 const Offerings = () => {
   const offeringsData = [
-    { id: 1, name: 'Barfi', price: 'Rs 900', image: barfiImage },
-    { id: 2, name: 'Barfi', price: 'Rs 900', image: barfiImage },
-    { id: 3, name: 'Barfi', price: 'Rs 900', image: barfiImage },
-    { id: 4, name: 'Barfi', price: 'Rs 900', image: barfiImage },
-    { id: 5, name: 'Barfi', price: 'Rs 900', image: barfiImage },
-    { id: 6, name: 'Barfi', price: 'Rs 900', image: barfiImage },
+    { id: 1, name: 'Barfi', price: 'Rs 900', image: BarfiImage },
+    { id: 2, name: 'Barfi', price: 'Rs 900', image: BarfiImage },
+    { id: 3, name: 'Barfi', price: 'Rs 900', image: BarfiImage },
+    { id: 4, name: 'Barfi', price: 'Rs 900', image: BarfiImage },
+    { id: 5, name: 'Barfi', price: 'Rs 900', image: BarfiImage },
+    { id: 6, name: 'Barfi', price: 'Rs 900', image: BarfiImage },
   ]
 
   return (
@@ -36,4 +37,4 @@ const Offerings = () => {
   )
 }
 
-export default Offerings;
+export default Offerings
