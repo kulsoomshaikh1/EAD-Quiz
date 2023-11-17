@@ -1,20 +1,26 @@
+// Welcome.js
+
 import React from 'react'
-import img from './logo.png' 
+import welcomeImage from './bakery.jpeg' 
 
 const Welcome = () => {
   return (
-    <div className='Welcome-container'>
-      <div className='Welcom-content'>
-        <h1>About Us</h1>
+    <div className='welcome-container'>
+      <div className='welcome-content'>
         <p>
-        Indulge your senses in a world of delectable delights at our bakery
-        Our passion for baking, combined with the finest ingredients, creates
-         an irresistible array of mouth-watering treats that promise to elevate 
-         your culinary experience.
+          Indulge in a symphony of flavors at our artisanal bakery. Welcome to a
+          world where the aroma of freshly baked wonders captivates your senses.
+          Our master bakers craft each creation with passion, using only the
+          finest ingredients to ensure every bite is pure delight. From flaky
+          croissants to decadent cakes, experience the epitome of taste and
+          craftsmanship. Whether it's a special occasion or a craving for the
+          extraordinary, our bakery offers a haven for your palate. Elevate your
+          moments with the magic of our oven-fresh delights. Your journey to
+          exceptional taste begins here.
         </p>
       </div>
-      <div className='Welcome-image'>
-        <img src={img} alt='image' />
+      <div className='bakery-img'>
+        <img src={bakeryimg} alt='Welcome' />
       </div>
     </div>
   )
