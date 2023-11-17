@@ -12,7 +12,7 @@ const NavBar = () => {
             src=".\logo.png" 
             height="30"
             className="d-inline-block align-top"
-            alt="logo"
+            
           />
         </Navbar.Brand>
 

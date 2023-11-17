@@ -3,6 +3,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import "./styles/Welcome.css";
 
 const Welcome = () => {
   return (
@@ -10,7 +11,7 @@ const Welcome = () => {
       <Row>
         {/* Description on the left side */}
         <Col md={6} style={{ textAlign: 'left', padding: '20px' }}>
-          <h2>Welcome to [Your Bakery Name]</h2>
+        
           <p>
             Indulge your senses in the irresistible aroma of freshly baked delights. 
             At [Your Bakery Name], we take pride in offering a wide range of delectable treats 
