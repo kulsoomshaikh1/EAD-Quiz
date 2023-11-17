@@ -7,10 +7,9 @@ const NavBar = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        {/* Logo on the left side */}
         <Navbar.Brand href="#home">
           <img
-            src="C:\Users\SafiUllah\Desktop\EAD-Quiz\public\img" 
+            src="C:\Users\SafiUllah\Desktop\EAD-Quiz\public\img.png" 
             height="30"
             className="d-inline-block align-top"
             alt="Bakery Logo"

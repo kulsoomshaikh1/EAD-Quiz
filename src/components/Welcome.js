@@ -1,35 +1,30 @@
-import React from "react";
-import { Button, Container, Row, Col } from "react-bootstrap";
-import './styles/Welcome.css';
+// Welcome.js
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 const Welcome = () => {
   return (
-    <Container className="text-white my-5">
+    <Container style={{ marginTop: '20px' }}>
       <Row>
-        {/* Left Side - Text Content */}
-        <Col xs={12} md={6}>
-          <h1 className="text-white">
-            Discover, collect, and charity in extraordinary NFT marketplace
-          </h1>
-          <h4 className="fw-light">
-            In aenean posuere lorem risus nec. Tempor tincidunt aenean purus
-            purus vestibulum nibh mi venenatis
-          </h4>
-          <div className="mt-5">
-            <Button  className="btn-variant border-0 me-5" >
-              Explore
-            </Button>
-            <Button variant="outline-light" className="ms-5">
-              Create
-            </Button>
-          </div>
+        {/* Description on the left side */}
+        <Col md={6} style={{ textAlign: 'left', padding: '20px' }}>
+          <h2>Welcome to [Your Bakery Name]</h2>
+          <p>
+            Indulge your senses in the irresistible aroma of freshly baked delights. 
+            At [Your Bakery Name], we take pride in offering a wide range of delectable treats 
+            crafted with passion and the finest ingredients. From mouth-watering pastries to 
+            custom cakes, every bite is a celebration of flavor.
+          </p>
         </Col>
 
-        {/* Right Side - Image */}
-        <Col xs={12} md={6}>
+        {/* Picture of the bakery on the right side */}
+        <Col md={6} style={{ padding: '20px' }}>
           <img
-            src="./img/welcome.png"
-            alt="Hero"
-            className="img-fluid"
+            src="path_to_your_bakery_image.jpg"  {/* Replace with the actual path to your bakery image */}
+            alt="Bakery Interior"
+            style={{ width: '100%', height: 'auto' }}
           />
         </Col>
       </Row>
