@@ -9,10 +9,10 @@ const NavBar = () => {
       <Container>
         <Navbar.Brand href="#home">
           <img
-            src="C:\Users\SafiUllah\Desktop\EAD-Quiz\public\img.png" 
+            src=".\logo.png" 
             height="30"
             className="d-inline-block align-top"
-            alt="Bakery Logo"
+            alt="logo"
           />
         </Navbar.Brand>
 
