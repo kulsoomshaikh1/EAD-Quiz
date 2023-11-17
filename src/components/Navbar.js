@@ -1,27 +1,37 @@
-import React from "react";
-import { Navbar, Nav, Container, Button } from "react-bootstrap";
+import React from 'react';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
 
-const AppNavbar = () => {
+const NavBar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
-      <Container className="d-flex justify-content-between">
-      <Navbar.Brand href="#home" className="text-capitalize">Fastech</Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ms-auto">
-          <Nav.Link href="#home" className="text-capitalize">Home</Nav.Link>
-          <Nav.Link href="#myprofile" className="text-capitalize">My Profile</Nav.Link>
-          <Nav.Link href="#activity" className="text-capitalize">Activity</Nav.Link>
-          <Nav.Link href="#howitworks" className="text-capitalize">How It Works</Nav.Link>
-        </Nav>
-        <Nav className="ms-auto">
-          <Button variant="outline-light" className="mr-2 text-capitalize">Create</Button>
-          <Button variant="dark" className="text-capitalize">Sign In</Button>
-        </Nav>
-      </Navbar.Collapse>
+    <Navbar bg="light" expand="lg">
+      <Container>
+        {/* Logo on the left side */}
+        <Navbar.Brand href="#home">
+          <img
+            src="C:\Users\SafiUllah\Desktop\EAD-Quiz\public\img" 
+            height="30"
+            className="d-inline-block align-top"
+            alt="Bakery Logo"
+          />
+        </Navbar.Brand>
+
+        {/* Toggle button for smaller screens */}
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+        {/* Navigation items on the right side */}
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+          <Nav className="mr-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#menu">Menu</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
 };
 
-export default AppNavbar;
+export default NavBar;
