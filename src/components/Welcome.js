@@ -1,10 +1,10 @@
 import React from 'react'
 import img from './logo.png' 
 
-const AboutUs = () => {
+const Welcome = () => {
   return (
-    <div className='about-us-container'>
-      <div className='about-us-content'>
+    <div className='Welcome-container'>
+      <div className='Welcom-content'>
         <h1>About Us</h1>
         <p>
         Indulge your senses in a world of delectable delights at our bakery
