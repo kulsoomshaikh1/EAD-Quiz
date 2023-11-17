@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AboutUs = () => {
+const About = () => {
   return (
     <div className='About-container'>
       <div className='About-content'>
@@ -31,8 +31,7 @@ const AboutUs = () => {
           delectable treat at a time.
         </p>
       </div>
-      <div className='about-image'>
-      </div>
+      
     </div>
   )
 }

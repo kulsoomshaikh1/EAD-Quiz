@@ -1,7 +1,7 @@
 // Welcome.js
 
 import React from 'react'
-import welcomeImage from './bakery.jpeg' 
+import welcomeImage from './bakery.jpg' 
 
 const Welcome = () => {
   return (
@@ -19,8 +19,8 @@ const Welcome = () => {
           exceptional taste begins here.
         </p>
       </div>
-      <div className='bakery-img'>
-        <img src={bakeryimg} alt='Welcome' />
+      <div className='bakery'>
+        <img src={bakery} alt='Welcome' />
       </div>
     </div>
   )
